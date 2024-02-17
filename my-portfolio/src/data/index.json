@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "/image/product-chain-1.png",
+      "title": "Front-End",
+      "desc": "HTML, CSS, JavaScript",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+    },
+    {
+      "id": "2",
+      "src": "/image/tag-1.png",
+      "title": "Back-End",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+    },
+    {
+      "id": "3",
+      "src": "/image/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+    },
+    {
+      "id": "5",
+      "src": "/image/feather-pen-1.png",
+
+      "title": "webflow Development",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/image/placeholder-image-1.png",
+      "title": "Front-End",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link":"View In Github"
+    },
+    {
+      "id": "2",
+      "src": "/image/placeholder-image-2.png",
+      "title": "Back-End",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link":"View In Github"
+
+    },
+    {
+      "id": "3",
+      "src": "/image/placeholder-image-1.png",
+      "title": "UI & UX Design",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link":"View In Github"
+
+    },
+    {
+      "id": "5",
+      "src": "/image/placeholder-image.png",
+
+      "title": "webflow Development",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link":"View In Github"
+
+    }
+  ]
+}
