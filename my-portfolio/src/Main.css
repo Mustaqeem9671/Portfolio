@@ -292,6 +292,14 @@ h3 {
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
+.skills-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+}
+.skills-img img {
+  width: 50px;
+}
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -350,7 +358,8 @@ h3 {
 }
 
 .portfolio--container-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -362,7 +371,8 @@ h3 {
   gap: 21.3px;
 }
 .portfolio--section--container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: center;
   gap: 42.6px;
@@ -401,13 +411,23 @@ h3 {
 .portfolio--link {
   text-decoration: none;
   display: flex;
+  flex-direction: row;
   gap: 16px;
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
 }
+
 .portfolio--section--card:hover path {
   stroke: #006b6a;
+}
+
+.github-btn {
+  /* margin-left: 1300px; */
+  flex-direction: row;
+  width: max-content;
+  height: fit-content;
+  margin-top: 8px;
 }
 /* Portfolio Ends */
 

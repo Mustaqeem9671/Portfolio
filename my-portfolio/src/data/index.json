@@ -4,61 +4,83 @@
       "id": "1",
       "src": "/image/product-chain-1.png",
       "title": "Front-End",
-      "desc": "HTML, CSS, JavaScript",
-      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+      "description": "I have extensive experience in frontend technologies such as HTML, CSS, JavaScript, and React.js."
     },
     {
       "id": "2",
       "src": "/image/tag-1.png",
       "title": "Back-End",
-      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+      "description": "I have good expertise in Core Java, proficiency in SQL & MongoDB database.proficient in Node.js for server-side development"
     },
     {
       "id": "3",
       "src": "/image/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+      "description": "I have experience working with Figma and Canva for designing templates."
     },
     {
       "id": "5",
       "src": "/image/feather-pen-1.png",
-
-      "title": "webflow Development",
-      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor"
+      "title": "Tools",
+      "description": "I have experience with multiple development tools, such as.. VS Code Atom for development purposes, and Eclipse for programming."
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "/image/placeholder-image-1.png",
-      "title": "Front-End",
+      "src": "/image/calculator.png",
+      "title": "Calculator",
       "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
-      "link":"View In Github"
+      "link": "View In Github ",
+      "link2": "View On Netlify"
     },
     {
       "id": "2",
-      "src": "/image/placeholder-image-2.png",
-      "title": "Back-End",
+      "src": "/image/amazon-clone.png",
+      "title": "Amazon Clone",
       "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
-      "link":"View In Github"
-
+      "link": "View In Github",
+      "link2": "View On Netlify"
     },
     {
       "id": "3",
-      "src": "/image/placeholder-image-1.png",
-      "title": "UI & UX Design",
+      "src": "/image/shipup-landing.png",
+      "title": "ShipUp Landing Page",
       "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
-      "link":"View In Github"
-
+      "link": "View In Github",
+      "link2": "View On Netlify"
     },
     {
       "id": "5",
-      "src": "/image/placeholder-image.png",
-
-      "title": "webflow Development",
+      "src": "/image/cover-image2.avif",
+      "title": "MohShop Ecommerce",
+      "description": "MohShop is an online shopping website developed using React.js. The project is currently a work in progress and has not yet been completed.",
+      "link": "View In Github",
+      "link2": "View On Netlify"
+    },
+    {
+      "id": "5",
+      "src": "/image/lib2.jpg",
+      "title": "Free Flex Lib",
       "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
-      "link":"View In Github"
-
+      "link": "View In Github",
+      "link2": "View On Netlify"
+    },
+    {
+      "id": "5",
+      "src": "/image/admin.jpg",
+      "title": "FoodMarket",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link": "View In Github",
+      "link2": "View On Netlify"
+    },
+    {
+      "id": "6",
+      "src": "/image/profile-netlify.png",
+      "title": "All Other Projects",
+      "description": " lorem ipsum dolor sit amet con et congue tell eu fugiat null a ante et just euismod tempor invid id tempor",
+      "link": "View In Github",
+      "link2": "View On Netlify"
     }
   ]
 }

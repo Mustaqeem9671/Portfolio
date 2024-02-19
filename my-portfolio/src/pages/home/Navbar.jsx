@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img style={{ width: "90px" }} src="/image/logo1.jpeg" alt="" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -87,20 +87,6 @@ function Navbar() {
               className="navbar--content"
             >
               About Me
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="testimonial"
-              className="navbar--content"
-            >
-              Testimonials
             </Link>
           </li>
         </ul>
