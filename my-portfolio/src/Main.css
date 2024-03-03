@@ -559,6 +559,189 @@ input[type="checkbox"] {
 }
 /* endes here footer  */
 
+/* projects */
+.projects--main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project--section--card {
+  width: 70%;
+  padding: 20px 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  margin-top: 3%;
+  text-align: center;
+  box-shadow: -10px -20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project--section--card h3 {
+  margin-top: 0;
+}
+
+.sub--title {
+  margin-bottom: 5px;
+}
+
+.text-sm {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.project--section--card button {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+  margin: auto;
+}
+
+.project--section--card a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  .projects--main h1 {
+    margin-top: 15%;
+  }
+}
+
+/* education  */
+
+.education--container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.education--container h1 {
+  color: #282938;
+  font-family: normal;
+}
+
+.education--card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: -30px -24px 28px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+}
+
+.education--card h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.education--card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.education--card p:first-child {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .education--container {
+    margin-top: 20%;
+  }
+
+  .education--card {
+    max-width: 80%;
+  }
+}
+
+/* Base styles */
+
+.achiev--cards {
+  display: flex;
+}
+.education--section--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.education--section--card {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education--section--img {
+  flex: 0 0 30%;
+}
+
+.education--section--img img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.education--section--card--content {
+  flex: 0 0 70%;
+  padding: 20px;
+}
+
+.education--section--title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-md {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* For large devices (screens larger than 1200px) */
+@media (min-width: 1200px) {
+  .achiev--cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .education--section--container {
+    width: calc(34% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+/* For medium devices (screens between 768px and 1199px) */
+@media (max-width: 1199px) {
+  .achiev--cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .education--section--container {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .achiev--cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .education--section--container {
+    width: 100%; /* Single card in a line */
+    margin-bottom: 20px;
+  }
+}
+
 /* responsive for all pages starts here  */
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
@@ -599,6 +782,9 @@ input[type="checkbox"] {
 @media only screen and (max-width: 1200px) {
   .btn-outline-primary {
     display: none;
+  }
+  .projects--main {
+    margin-top: 10%;
   }
   .hero--section {
     display: flex;
@@ -671,7 +857,11 @@ input[type="checkbox"] {
     margin: 20px;
   }
 }
-
+@media screen and (min-width: 900px) {
+  .projects--main {
+    margin-top: 25%;
+  }
+}
 /* Hamburger menu  */
 
 .nav__hamburger {

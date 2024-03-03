@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "./Footer";
 
 const ContactMe = () => {
   const form = useRef();
@@ -35,12 +36,15 @@ const ContactMe = () => {
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+        <p className="text-lg sub--title">
+          To reach me please fill out this Form
         </p>
       </div>
-      <form ref={form} onSubmit={sendEmail} className="contact--form--container">
-        {/* Render alert message if form is submitted successfully */}
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="contact--form--container"
+      >
         {isSubmitted && (
           <div className="alert alert-success" role="alert">
             Message sent successfully!
@@ -107,6 +111,7 @@ const ContactMe = () => {
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
       </form>
+      <Footer />
     </section>
   );
 };

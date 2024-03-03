@@ -1,19 +1,19 @@
 import React from "react";
 import data from "../../data/index.json";
+import Footer from "./Footer";
 
 const MyPortfolio = () => {
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="porfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
+          <p className="sub--title" style={{ marginTop: "5%" }}>
+            Recent Projects
+          </p>
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div className="github-btn">
-          <a
-            className="btn btn-github"
-            href="https://github.com/Mustaqeem9671"
-          >
+          <a className="btn btn-github" href="https://github.com/Mustaqeem9671">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -44,9 +44,11 @@ const MyPortfolio = () => {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              
+
               <a
-               href="https://github.com/Mustaqeem9671?tab=repositories" target="_blank" rel="noreferrer"
+                href="https://github.com/Mustaqeem9671?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
                 className="text-sm portfolio--link"
               >
                 {item.link}
@@ -66,7 +68,12 @@ const MyPortfolio = () => {
                   />
                 </svg>
               </a>
-              <a   href="https://app.netlify.com/teams/mustaqeem9671/overview" target="_blank" rel="noreferrer" className="text-sm portfolio--link">
+              <a
+                href="https://app.netlify.com/teams/mustaqeem9671/overview"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm portfolio--link"
+              >
                 {item.link2}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -88,6 +95,7 @@ const MyPortfolio = () => {
           </div>
         ))}
       </div>
+      {/* <Footer /> */}
     </section>
   );
 };

@@ -32,6 +32,21 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
+
+      {/* <div className="another--section">
+        <div className="education--details">
+          <h1>Education</h1>
+        </div>
+
+        <hr />
+
+        <div className="certificates--achievments">
+          <h1>Certificates and Achievments</h1>
+          <div className="text--certificates">
+            <img src={aboutImage} alt="" />
+          </div>
+        </div> */}
+      {/* </div> */}
     </section>
   );
 };

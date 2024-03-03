@@ -30,7 +30,7 @@ const HeroSection = () => {
             creating visually appealing and user friendly websites ,
           </p>
         </div>
-        <a href="/image/Mustaqeem Resume.docx" className="btn btn-primary">
+        <a href="/image/Mohammed Resume.pdf" target="_blank" className="btn btn-primary">
           Download CV
         </a>
       </div>
